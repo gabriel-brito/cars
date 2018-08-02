@@ -1,4 +1,6 @@
 import Example from '../_modules/example-module/example-module';
+import Fetch from '../_modules/fetchModule/fetch';
+
 
 const URL = 'https://5b6264dd07412d00142acf61.mockapi.io/api/v1/cars';
 
@@ -7,7 +9,6 @@ const URL = 'https://5b6264dd07412d00142acf61.mockapi.io/api/v1/cars';
 
 (function(){
   let example = new Example();
-
-  console.log(URL);
+  let fetch = new Fetch();
 
 })();
