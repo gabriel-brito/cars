@@ -58,6 +58,7 @@
     "sinon-chai": "^3.0.0",
     "sinon-stub-promise": "^4.0.0",
     "stylus": "^0.54.5",
+    "uglify-js": "^3.4.6",
     "webpack-stream": "^4.0.3",
     "wrench": "^1.5.9"
   },
