@@ -1,0 +1,52 @@
+.cvc__m-withdrawal
+  display block
+  width 100%
+  background-color $yellow
+  padding 10px
+
+  .cvc__m-withdrawalForm
+    display block
+    width 100%
+    margin 0 auto
+
+    .cvc__m-withdrawalForm__inputWrapper
+    .cvc__m-withdrawal__economy
+      display block
+      margin 15px auto
+      width 100%
+      
+      &:first-child
+        margin-top 0
+        
+    .cvc__m-withdrawalForm__inputWrapper
+      span
+        display block
+        color $fontgold
+        margin 5px 0
+        font-weight 300
+        
+      input[type="text"]
+        width 100%
+        display block
+        padding 12px 8px
+        font-size 15px
+        color $darkenblue
+        
+        &::placeholder
+          color $darkenblue
+          
+      input[type="checkbox"]
+        display inline-block
+        width 15px
+        height 15px
+        margin auto
+        cursor pointer
+        
+        &:checked
+          background-color black
+      
+      label
+        display inline-block
+        font-size 15px
+        vertical-align top
+        color $labelblue
