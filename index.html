@@ -18,7 +18,8 @@
 
 <section class="cvc__c-container">
   
-  <aside class="m-withdrawal">
+  <!-- Withdrawal Aside section -->
+  <aside class="m-withdrawal"> 
     <form class="m-withdrawalForm">
       
       <div class="m-withdrawalForm__inputWrapper">
@@ -42,6 +43,8 @@
           <input type="text" placeholder="30/06/2016" onfocus="(this.type='date');">
           <select>
             <option value="just a placeholder">11:00</option>
+            <option value="just a placeholder">12:00</option>
+            <option value="just a placeholder">13:00</option>
           </select>
         </div>
       </div>
@@ -52,6 +55,8 @@
           <input type="text" placeholder="04/07/2016" onfocus="(this.type='date');">
           <select>
             <option value="just a placeholder">11:00</option>
+            <option value="just a placeholder">12:00</option>
+            <option value="just a placeholder">13:00</option>
           </select>
         </div>
       </div>
@@ -74,35 +79,174 @@
         buscar
       </button>
     </form>
-  </aside> <!-- Withdrawal Aside section -->
+  </aside> 
+  <!-- /Withdrawal Aside section -->
 
+  <!-- orderBy Top section -->
   <section class="m-orderby">
     <div class="m-orderbyWrapper">
       <span>itens por página: </span>
       <select>
         <option value="100">100</option>
+        <option value="200">200</option>
       </select>
     </div>
     <div class="m-orderbyWrapper">
       <span>ordernar por: </span>
       <select>
         <option value="low-price">Menor preço</option>
+        <option value="high-price">Maior preço</option>
       </select>
     </div>
     <div class="m-orderbyWrapper">
       <span>moeda:</span>
       <select>
         <option value="real">Real</option>
+        <option value="dolar">Dólar</option>
       </select>
     </div>
-  </section> <!-- orderBy Top section -->
+  </section> 
+  <!-- /orderBy Top section -->
 
-  <section class="m-products">
+  <!-- Products section -->
+  <section class="m-productsSection">
     
+    <article class="m-product">
+
+      <div class="m-productShape">
+        <div class="m-productAboveTablet">
+          <div class="m-productShape__image">
+            <img src="/public/images/red-car.png" alt="Red Car">
+            
+            <p class="discount">desconto <span>20%</span></p>
+
+            <i class="rent-icon">
+              <img src="/public/images/hertz.png" alt="Hertz">
+            </i>
+          </div>
+        
+          <div class="m-productInfo">
+            <a class="title" href="javascript:void(0)">
+              <h2>carro econômico com ar</h2>
+            </a>
+            
+            <p class="m-productInfo__mainInfo">código da taxa: ifmr</p>
+            <p class="m-productInfo__mainInfo">chevrolet celta, ford fiesta, vw gol, fiat palio ou similar</p>
+
+            <ul class="m-productInfo__list">
+              <li class="m-productInfo__listItem">Quilometragem livre</li>
+              <li class="m-productInfo__listItem">Seguro total do veículo</li>
+              <li class="m-productInfo__listItem">seguro a terceiros</li>
+              <li class="m-productInfo__listItem">Taxas de serviço inclusas</li>
+            </ul>
+
+            <a href="javascript:void(0)" class="m-productInfo__detailTrigger">
+              Mais detalhes
+              <i>
+                <img src="public/images/plus-icon.png" alt="plus icon">
+              </i>
+            </a>
+
+            <a class="favorite" href="javascript:void(0)">
+              <img src="public/images/red-heart-icon.png" alt="Favorite Heart">
+            </a>        
+          </div>
+
+          <div class="m-productSpecifications">
+            <p>Super inclusive promocional - Km livre, seguro total do veículo (LDW), seguro a terceiros (SLI), taxas de serviços inclusas e 1 motorista adicional.</p>
+          </div>
+
+          <div class="m-productDetails">
+            <ul class="m-productDetails__list">
+              
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/car-icon.png" alt="car icon">
+                </i>
+                <a href="javascript:void(0)"><span>4 </span>portas</a>
+              </li>
+
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/air-conditioner-icon.png" alt="air conditioner icon">
+                </i>
+                <a href="javascript:void(0)">Ar-condicionado</a>
+              </li>
+
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/power-glass-icon.png" alt="power glass icon">
+                </i>
+                <a href="javascript:void(0)">Vidro elétrico</a>   
+              </li>
+            </ul>
+
+            <ul class="m-productDetails__list">
+
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/user-icon.png" alt="user icon">
+                </i>
+                <a href="javascript:void(0)"><span>5 </span>pessoas</a>
+              </li>
+
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/automatic-icon.png" alt="automatic icon">
+                </i>
+                <a href="javascript:void(0)">Automático</a>
+              </li>
+
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/usb.png" alt="cd or usb icon">
+                </i>
+                <a href="javascript:void(0)">CD ou USB</a>
+              </li>
+            </ul>
+
+            <ul class="m-productDetails__list">
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/bag-icon.png" alt="bag icon">
+                </i>
+                <a href="javascript:void(0)"><span>3 </span>malas</a>
+              </li>
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/wheel-icon.png" alt="wheel icon">
+                </i>
+                <a href="javascript:void(0)">Direção hidráulica</a>
+              </li>
+              <li class="m-productDetails__listItem">
+                <i class="icon">
+                  <img src="public/images/radio-icon.png" alt="radio icon">
+                </i>
+                <a href="javascript:void(0)">Radio AM/FM</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+
+        <div class="m-productFooter">
+          <div class="m-productFooterWrapper">
+            <h3>Total da locação</h3>
+            <span class="from">de R$ 938</span>
+            <p class="newPrice">por <span>R$ 838</span></p>
+            <span class="payment-condition">em até 10x</span>
+
+            <a href="javascript:void(0)" class="c-button">alugar</a>
+
+            <span class="tax-information">Taxas inclusas</span>
+          </div>
+        </div>
+      </div>  
+    </article>
 
 
 
   </section>
+  <!-- /Products section -->
 
 </section>
 
