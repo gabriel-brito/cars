@@ -58,13 +58,25 @@
           
       input[type="checkbox"]
         display inline-block
-        width 15px
-        height 15px
+        width 14px
+        height 14px
         margin auto
         cursor pointer
         
+        &:after
+          content ''
+          display inline-block
+          width 14px
+          height 14px
+          background-color transparent
+          border-radius 2px
+        
         &:checked
-          background-color black
+          &:after
+            content '\2714'
+            background-color $fontblue
+            text-align center
+            color $white
       
       label
         display inline-block
@@ -104,6 +116,7 @@
           background-repeat no-repeat
           background-position 90% center
           background-size 12px
+          cursor pointer
     
     .m-withdrawal__economy
       display inline-block
@@ -139,10 +152,28 @@
           margin 5px 0
           font-size .9375em
           
+          +above(tablet)
+            font-size 15px
+          
           input 
             width 13px
             height 13px
             vertical-align middle
             margin 0 4px
+            margin-bottom 2px
+            cursor pointer
             
-          
+            &:after
+              content ''
+              display inline-block
+              width 13px
+              height 13px
+              background-color transparent
+              border-radius 2px
+            
+            &:checked
+              &:after
+                content '\2714'
+                background-color $fontblue
+                text-align center
+                color $white

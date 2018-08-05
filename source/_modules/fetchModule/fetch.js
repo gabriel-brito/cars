@@ -127,12 +127,15 @@ export default class Fetch {
                   </i>
                   <a href="javascript:void(0)"><span>3 </span>malas</a>
                 </li>
-                <li class="m-productDetails__listItem">
-                  <i class="icon">
-                    <img src="public/images/wheel-icon.png" alt="wheel icon">
-                  </i>
-                  <a href="javascript:void(0)">Direção hidráulica</a>
-                </li>
+
+                ${data.hidraulic
+                  ? `<li class="m-productDetails__listItem">
+                      <i class="icon">
+                        <img src="public/images/wheel-icon.png" alt="wheel icon">
+                      </i>
+                      <a href="javascript:void(0)">Direção hidráulica</a>
+                    </li>`  : ''
+                }                
                 
                 ${data.radio
                   ? `<li class="m-productDetails__listItem">

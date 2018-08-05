@@ -110,6 +110,7 @@
       position absolute
       right 5px
       bottom 0
+      filter invert(55%)
       
       +above(tablet)
         bottom auto
@@ -125,6 +126,9 @@
       text-transform uppercase
       font-size .75em
       
+      +above(tablet)
+        font-size .9375em
+
       &:nth-child(3)
         margin-bottom 10px
 
@@ -226,7 +230,7 @@
     
     .icon 
       display inline-block
-      margin-right 5px
+      margin 0 5px
       
     a 
       text-decoration none
@@ -302,17 +306,18 @@
       font-size 19px
       font-weight 400
 
-      &:before
-        content ''
-        display block
-        width 20px
-        height 20px
-        position absolute
-        top 50%
-        transform translateY(-50%) rotate(-45deg)
-        left -30px
-        z-index 1
-        background-color white
+      +above(tablet)
+        &:before
+          content ''
+          display block
+          width 20px
+          height 20px
+          position absolute
+          top 50%
+          transform translateY(-50%) rotate(-45deg)
+          left -30px
+          z-index 1
+          background-color white
         
     .tax-information
       font-size .875em
