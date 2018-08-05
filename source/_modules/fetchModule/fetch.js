@@ -62,7 +62,7 @@ export default class Fetch {
             </div>
 
             <div class="m-productSpecifications">
-              <p>Super inclusive promocional - Km livre, seguro total do veículo (LDW), seguro a terceiros (SLI), taxas de serviços inclusas e 1 motorista adicional.</p>
+              <p>${data.details}.</p>
             </div>
 
             <div class="m-productDetails">
@@ -72,7 +72,7 @@ export default class Fetch {
                   <i class="icon">
                     <img src="public/images/car-icon.png" alt="car icon">
                   </i>
-                  <a href="javascript:void(0)"><span>4 </span>portas</a>
+                  <a href="javascript:void(0)"><span>${data.doors} </span>portas</a>
                 </li>
 
                 <li class="m-productDetails__listItem">
@@ -99,7 +99,7 @@ export default class Fetch {
                   <i class="icon">
                     <img src="public/images/user-icon.png" alt="user icon">
                   </i>
-                  <a href="javascript:void(0)"><span>5 </span>pessoas</a>
+                  <a href="javascript:void(0)"><span>${data.capacity} </span>pessoas</a>
                 </li>
 
                 <li class="m-productDetails__listItem">
@@ -125,7 +125,7 @@ export default class Fetch {
                   <i class="icon">
                     <img src="public/images/bag-icon.png" alt="bag icon">
                   </i>
-                  <a href="javascript:void(0)"><span>3 </span>malas</a>
+                  <a href="javascript:void(0)"><span>${data.bags} </span>malas</a>
                 </li>
 
                 ${data.hidraulic
