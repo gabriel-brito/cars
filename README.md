@@ -1,7 +1,7 @@
 # CVC - Front-End Test
 
 Test to join CVC development team =)
-You can see the test result [here](https://gabriel-brito.github.io/)!
+You can see the test result [here](https://mr-bebop.github.io/cvc/)!
 
 ## Browser Support
 
