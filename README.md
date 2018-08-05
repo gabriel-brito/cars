@@ -31,6 +31,7 @@ You can see the test result [here](https://mr-bebop.github.io/cvc/)!
 
 * Vanilla JavaScript
 
+
 ## Dependencies
 This project depends on [fetch](https://fetch.spec.whatwg.org/) to make requests to the provided API. For environments that don't support fetch, I provided a  [polyfill](https://github.com/bitinn/node-fetch) to Node.
 
@@ -69,11 +70,13 @@ Simple, not?
 
 ## Notes
 
-1° - I had problem with GitHub Pages on my GitHub profile, so I did a new user to host the test. -> [https://mr-bebop.github.io/cvc/](https://mr-bebop.github.io/cvc/)
+0 - I used [MockAPI](https://www.mockapi.io/) to create, host and consume the API.
 
-2° - I don't have an photoshop editor. So I did everything by eye. If some spacements or colors are 'different', you can point this =)
+1 - I had problem with GitHub Pages on my GitHub profile, so I did a new user to host the test. -> [https://mr-bebop.github.io/cvc/](https://mr-bebop.github.io/cvc/)
 
-3° Every file is deeply equal in both repositories: [Cars](https://github.com/gabriel-brito/cars) and [mr-bebop.github.io](https://github.com/mr-bebop/mr-bebop.github.io)
+2 - I don't have an photoshop editor. So I did everything by eye. If some spacements or colors are 'different', you can point this =)
+
+3 Every file is deeply equal in both repositories: [Cars](https://github.com/gabriel-brito/cars) and [mr-bebop.github.io](https://github.com/mr-bebop/mr-bebop.github.io)
 
 ## License
 
